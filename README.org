@@ -24,6 +24,10 @@
 
 *** swiperight to view summary
   
+** Tips
+
+*** You can install `WenQuanYi Micro Hei Light` to make Chinese characters look better
+
 ** License
    
    Copyright (C) 2013 Zeno Zeng
