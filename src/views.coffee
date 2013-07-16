@@ -145,7 +145,7 @@ class View
       db.get 'clock', (clocks) ->
         obj = {item: items, clock: clocks}
         json = JSON.stringify obj
-        mine = "application/json"
+        mine = "mime/type"
         base64 = base64Encode json
         data = "data:#{mine};base64,#{base64}"
         window.location.href = data

@@ -1130,7 +1130,7 @@ View = (function() {
           clock: clocks
         };
         json = JSON.stringify(obj);
-        mine = "application/json";
+        mine = "mime/type";
         base64 = base64Encode(json);
         data = "data:" + mine + ";base64," + base64;
         return window.location.href = data;
