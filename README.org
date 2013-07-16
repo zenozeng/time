@@ -1,0 +1,85 @@
+* Clock
+  
+  A clock Web App, using IndexedDB.
+    
+** Feature 
+
+*** Export / Import
+
+*** Day Start Offset
+
+*** Clock Summary
+
+** Install
+
+   Open your Firefox Mobile and visit http://app.zenoes.com/clock
+
+** Usage
+   
+*** tap for 3 times to add an item in current path
+
+*** double tap to enter an item
+
+*** swipeleft to config or edit
+
+*** swiperight to view summary
+  
+** License
+   
+   Copyright (C) 2013 Zeno Zeng
+   
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU Affero General Public License as
+   published by the Free Software Foundation, either version 3 of the
+   License, or (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Affero General Public License for more details.
+   
+   You should have received a copy of the GNU Affero General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   
+   This program incorporates work covered by the following copyright and
+   permission notices:
+   
+*** jQuery
+    
+    Copyright 2005, 2013 jQuery Foundation, Inc. and other contributors
+    
+    Released under the MIT license
+    
+*** Moment.js
+
+    Moment.js is freely distributable under the terms of the MIT license.
+
+    Copyright (c) 2011-2012 Tim Wood
+    
+*** jquery.event.move.js
+    
+    by stephband
+    
+    Licensed under DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+
+*** jquery.event.swipe.js
+
+    by stephband
+    
+    Licensed under DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+    
+*** Titillium Web
+    
+    by Multiple Designers
+
+    Special thanks go to:
+
+    Prof. Luciano Perondi, design and curation
+
+    Prof. Marcello Signorile, coordination
+
+    Prof. Manuel Zanettin, web project supervision
+
+    Diego Giusti, design of the first prototype    
+    
+    Licensed under SIL Open Font License, 1.1

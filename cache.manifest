@@ -1,0 +1,12 @@
+CACHE MANIFEST
+NETWORK:
+js/main.map
+CACHE:
+index.html
+js/jquery-2.0.3.min.js
+js/jquery.event.move.js
+js/jquery.event.swipe.js
+js/moment.min.js
+js/main.js
+layout/layout.css
+layout/titillium-web.woff

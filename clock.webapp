@@ -1,0 +1,14 @@
+{
+    "name": "Clock",
+    "description": "Simple Clock",
+    "launch_path": "/clock/",
+    "icons": {
+        "128": "/clock/icon.png"
+    },
+    "developer": {
+        "name": "Zeno Zeng",
+        "url": "http://zenoes.com/"
+    },
+    "appcache_path": "/clock/cache.manifest",
+    "default_locale": "en"
+}

@@ -1,0 +1,44 @@
+<!doctype HTML>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+<link rel="stylesheet" type="text/css" href="layout/layout.css">
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/jquery.event.move.js"></script>
+<script src="js/jquery.event.swipe.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/main.js"></script>
+<section id="summary">
+  <header>Summary</header>
+</section>
+<section id="operation">
+  <ul class="dangerous">
+    <li>Remove</li>
+    <li>Clear</li>
+  </ul>
+  <ul>
+    <li id="move">Move</li>
+    <li id="rename">Rename</li>
+    <li id="editLogs">Edit Logs</li>
+  </ul>
+</section>
+<section id="tree">
+  <nav id="path">
+    <ul>
+    </ul>
+  </nav>
+  <ul id="items">
+  </ul>
+</section>
+<section id="config">
+  <header>Config</header>
+  <ul>
+    <li id="exportData">Export Data</li>
+    <li id="importData">Import Data</li>
+    <li id="dayStartAt">Day Start At</li>
+  </ul>
+</section>
+<section id="logs">
+  <header>Logs</header>
+  <ul></ul>
+</section>
+<input type="file" id="fileElem" style="display:none" onchange="view.importData(this.files[0])">
