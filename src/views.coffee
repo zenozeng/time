@@ -70,7 +70,6 @@ class View
     jq.addClass 'clocking'
     jq.attr('data-clockin', new Date().getTime())
     clock.sum id, 'today', (sum) =>
-      debug.log sum
       jq.attr('data-sum', sum);
     clock.clockout()
     clock.clockin jq.attr('id')
@@ -152,8 +151,6 @@ class View
   move: (id, to) ->
     unless id
       id = @currentPath()
-    alert id
-    alert to
     if id is to
       alert "Could not move to itself!"
       return

@@ -3,7 +3,7 @@ ul,li{list-style:none;}
 li{cursor:pointer;}
 body{color:#000;font-family:'Titillium Web','WenQuanYi Micro Hei Light',sans-serif;font-weight:300;margin:5vmin;font-size:21px;}
 section{display:none;min-height:100vh;}section header{padding:6px 0;font-size:10vw;padding-bottom:12px;margin-bottom:15px;border-bottom:1px solid #ddd;}
-section#operation{display:none;z-index:100;background:#fff;font-size:48px;padding:10px;}section#operation .dangerous{color:red;}
+section#operation{display:none;z-index:100;background:#fff;font-size:48px;padding:10px;}
 #summary .item{font-size:24px;}
 #summary .sum{font-size:16px;color:#000;}#summary .sum::after{display:block;float:right;content:attr(data-clock);}
 #summary .sum::before{display:block;clear:both;content:'';}

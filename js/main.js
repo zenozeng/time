@@ -1008,7 +1008,6 @@ View = (function() {
     jq.addClass('clocking');
     jq.attr('data-clockin', new Date().getTime());
     clock.sum(id, 'today', function(sum) {
-      debug.log(sum);
       return jq.attr('data-sum', sum);
     });
     clock.clockout();
@@ -1144,8 +1143,6 @@ View = (function() {
     if (!id) {
       id = this.currentPath();
     }
-    alert(id);
-    alert(to);
     if (id === to) {
       alert("Could not move to itself!");
       return;
