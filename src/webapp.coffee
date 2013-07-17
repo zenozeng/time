@@ -1,8 +1,8 @@
-class Install
+class Webapp
   constructor: ->
     @webapp = "http://app.zenoes.com/clock/clock.webapp"
 
-  tryit: ->
+  install: ->
     return unless navigator.mozApps?
     request = navigator.mozApps.checkInstalled(@webapp)
     request.onsuccess = =>
@@ -11,11 +11,8 @@ class Install
       else
         # not installed
         @install()
-
-  install: ->
     request = navigator.mozApps.install(@webapp)
     request.onsuccess = -> alert "Welcome to Zeno's Clock App!"
     request.onerror = -> alert "Whoops! Fail to Install this app!"
 
-install = new Install
-install.tryit()
+new Webapp().install()

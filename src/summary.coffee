@@ -30,7 +30,7 @@ class Summary
     display start, end, 'TODAY'
 
     # yestoday
-    end = start
+    end = new Date(start.getTime())
     start.setTime(start.getTime() - 24*3600*1000)
     display start, end, 'YESTODAY'
 
