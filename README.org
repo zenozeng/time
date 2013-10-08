@@ -1,4 +1,6 @@
 * Clock
+
+  ATTENTION: This project is depressed.
   
   A clock Web App, using IndexedDB.
     
