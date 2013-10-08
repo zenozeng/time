@@ -1,9 +1,9 @@
 * Clock
 
+  A clock Web App, using IndexedDB.
+
   ATTENTION: This project is depressed.
   
-  A clock Web App, using IndexedDB.
-    
 ** Feature 
 
 *** Export / Import
